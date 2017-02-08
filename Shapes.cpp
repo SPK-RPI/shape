@@ -1,3 +1,5 @@
+//by SPK
+
 #include<cstdlib>
 #include<iostream>
 #include<math.h>
