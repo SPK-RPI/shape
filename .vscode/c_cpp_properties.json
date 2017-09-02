@@ -43,9 +43,8 @@
             "includePath": [
                 "${workspaceRoot}",
                 "C:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++",
-                "C:\\MinGW\\bin"
-                
-                
+                "C:\\MinGW\\bin",
+                "C:\\Users\\shiba\\Documents\\Projects\\C++\\shape"
             ],
             "defines": [
                 "_DEBUG",
@@ -56,7 +55,8 @@
                 "path": [
                     "${workspaceRoot}",
                     "C:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++",
-                    "C:\\MinGW\\bin"
+                    "C:\\MinGW\\bin",
+                    "C:\\Users\\shiba\\Documents\\Projects\\C++\\shape"
                 ],
                 "limitSymbolsToIncludedHeaders": true,
                 "databaseFilename": ""

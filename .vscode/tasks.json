@@ -4,12 +4,12 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "taskName": "build12121",
+            "taskName": "SHIBA_FIRST_BUILD",
             "type": "process",
             "command": "C:\\MinGW\\bin\\g++.exe",
             "args": [
                 "-g",
-                "Shapes.cpp"
+                "shap_MAIN.cpp"
             ],
             "group": "build",
             "presentation": {
