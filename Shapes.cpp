@@ -3,7 +3,7 @@
 #include<cstdlib>
 #include<iostream>
 #include<math>
-#include<unistd>
+//#include<unistd>
 #include<string>
 #include<iostream>
 using namespace std;
@@ -53,8 +53,8 @@ int cyl_area(){
     cout <<"Enter the radius of the cylinder : ";        
 			  cin>>b;
     c=3.14*b*b;
-cout<<"The area of the cylinder is :  " <<c<<endl;
-return 0;
+    cout<<"The area of the cylinder is :  " <<c<<endl;
+              return 0;
 	}
 int cyl_circm(){
 	float a,b,c;
@@ -63,7 +63,7 @@ int cyl_circm(){
     cout <<"Enter the radius of the cylinder : ";        
 			  cin>>b;
     c=2*3.14*a*b;
-cout<<"The area of the cylinder is :  " <<c<<endl;
+     cout<<"The area of the cylinder is :  " <<c<<endl;
 	return 0;
 	}
 int cyl_vol(){
@@ -73,24 +73,20 @@ int cyl_vol(){
     cout <<"Enter the radius of the cylinder : ";        
 			  cin>>b;
     c=3.14*a*b*b;
-cout<<"The area of the cylinder is :  " <<c<<endl;
-return 0;
+       cout<<"The area of the cylinder is :  " <<c<<endl;
+ return 0;
 	}
-int cyl_surf(){
+int cyl_surf(){ 
 	float a,b,c;
 	cout <<"Enter the hight of the cylinder : ";
               cin>>a;
     cout <<"Enter the radius of the cylinder : ";        
 			  cin>>b;
     c=2*3.14*b*(b+a);
-cout<<"The area of the cylinder is : "<<c<<endl;
+ cout<<"The area of the cylinder is : "<<c<<endl;
 	return 0;
 	}
 //#############################################
-
-
-
-
 int circle(){ 
 	char c;
 	   int s;
@@ -189,16 +185,16 @@ int main(){
 	char c;
 	int s;
    do {
-cout<<">>>>>>>>>>>>>> SIMPLE CALCULATOR <<<<<<<<<<<<<"<<endl;
+   cout<<">>>>>>>>>>>>>> SIMPLE CALCULATOR <<<<<<<<<<<<<"<<endl;
 
-cout<<"*********** Please Enter An Option ***********"<<endl;
-cout<<"##############################################"<<endl;		
-cout<<"#                 1.Circle                   #"<<endl;          
-cout<<"#                 2.cylinder                 #"<<endl;         
-cout<<"#                 3.Square                   #"<<endl;           
-cout<<"#                 4.Ellips                   #"<<endl;           
-cout<<"#                 5.Rectangle                #"<<endl;        
-cout<<"##############################################"<<endl;		
+   cout<<"*********** Please Enter An Option ***********"<<endl;
+   cout<<"##############################################"<<endl;		
+   cout<<"#                 1.Circle                   #"<<endl;          
+   cout<<"#                 2.cylinder                 #"<<endl;         
+   cout<<"#                 3.Square                   #"<<endl;           
+   cout<<"#                 4.Ellips                   #"<<endl;           
+   cout<<"#                 5.Rectangle                #"<<endl;        
+   cout<<"##############################################"<<endl;		
 
     cout<<" =====>> ";
     cin>>s;
@@ -215,13 +211,13 @@ cout<<"##############################################"<<endl;
                case 5:rectangle();
                default: cout<<"Please enter only (1,2,3,4,5) !!!!!!!!"<<endl;
 }
-cout<<"Try another shape......(y or n) "<<endl;
-cin>>c;
-sleep(2);
-//system("clear");
+    cout<<"Try another shape......(y or n) "<<endl;
+    cin>>c;
+   //sleep();
+   //system("clear");
 }
-while(c=='y'||c=='Y');
-return 0;
+    while(c=='y'||c=='Y');
+    return 0;
 }
 //##############################################
 

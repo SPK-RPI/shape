@@ -9,7 +9,7 @@
             "command": "C:\\MinGW\\bin\\g++.exe",
             "args": [
                 "-g",
-                "test.cpp"
+                "Shapes.cpp"
             ],
             "group": "build",
             "presentation": {
