@@ -2,8 +2,8 @@
 
 #include<cstdlib>
 #include<iostream>
-#include<math.h>
-#include<unistd.h>
+#include<math>
+#include<unistd>
 #include<string>
 #include<iostream>
 using namespace std;
