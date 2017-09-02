@@ -13,11 +13,14 @@
 using namespace std;
 //###################### MAIN ##################
 int main()
-{
+{    
+    
     char c;
     int s;
     do
-    {  system("color 3C");
+
+    {  
+        system("color 3C");
         cout << "                          >>>>>>>>>>>>>> SIMPLE CALCULATOR <<<<<<<<<<<<<" << endl;
         cout << "                          *********** Please Enter An Option ***********" << endl;
         cout << "                          ##############################################" << endl;
